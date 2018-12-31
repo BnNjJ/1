@@ -8,7 +8,7 @@ module.exports.run = async (client, message, args) => {
 
   let embed = new Discord.RichEmbed()
   .setTitle("Ticket Bot - Help")
-  .setDescription("**Created by**: CreeperCry04#2755\n\n**new** - Creates new ticket channel.\n**close** - Closes current ticket channel.\n**add (@member)** - Adds member to ticket.\n**remove (@member)** - Removes member from ticket")
+  .setDescription("**Created by**: Flyz#0007\n\n**new** - Creates new ticket channel.\n**close** - Closes current ticket channel.\n**add (@member)** - Adds member to ticket.\n**remove (@member)** - Removes member from ticket")
   .setColor(colour)
   .setTimestamp()
   .setFooter(footer);
